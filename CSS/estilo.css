@@ -1,0 +1,78 @@
+/*Seletor Univel: Se aplica em todos elementos no documento e se aplica em todos ele
+	da pagina
+
+
+* {
+
+	border: 1px solid red;
+}
+*/
+
+/*Seletor de texto: Seleciona elementos pelo tipo
+
+h1, h2, h3 {
+
+	border: 1px solid red;
+	color: #f7b600;
+}
+*/
+
+/*Seletor de class: seleciona um elemento cujo o atributo class 
+	tem o valor especificado depois do ponto(.)*/
+/*
+.verde {
+
+	color: green;
+}
+*/
+/*
+p.verde{
+
+	color: green;
+}
+*/
+
+/*Seletor ID: Seleciona um elemento cujo o atributo ID tem o valor
+	especificado depois do (#)
+*/
+/*
+#cabecalho {
+
+	border: 1px solid red;
+}
+*/
+
+/*Seletor de filho: seleciona um elemento que é filho deireito de outro*/
+
+/*
+li>a {
+
+	text-decoration: none;
+	color: green;
+}
+*/
+
+/*Seletor de descendente*/
+
+/*
+p>a {
+
+	color: red;
+}
+*/
+
+/*seletor de irmão adjacente*/
+/*
+h1+p{
+
+	color: red;
+}
+*/
+
+/*Seletor de irmão Geral*/
+
+h1~p {
+
+	color: pink;
+}
+

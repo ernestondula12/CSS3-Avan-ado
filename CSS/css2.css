@@ -1,0 +1,56 @@
+
+/*Herança*/
+
+/*
+*{
+	border: 1px solid red;
+}
+*/
+/*
+body {
+
+	color: red;
+	font-size: 16px;
+	
+}
+*/
+
+/*Especificidade*/
+
+/*
+.pagina p{
+	color: red;
+}
+
+.pagina p{
+
+	color: blue;
+}
+*/
+
+/*Se um seletor for mais especifico que outro a regra mais especifica será aplicada
+(terá precedencia sobre regras mais gerais)
+*/
+
+* {
+
+	color: red;
+}
+
+/*Ordem de precedencia dos elementos*/
+
+h2 {/*3*/
+
+	color: blue;
+}
+
+h2.verde{/*2*/
+
+	color: green;
+}
+
+h2#amarelo{/*1*/
+
+	color: yellow;
+}
+
